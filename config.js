@@ -12,12 +12,6 @@ var config = {
             Temperature: process.env.PL_STREAM_TEMPERATURE || "Stream_Temp_key",
             Humidity: process.env.PL_STREAM_HUMIDITY || "Stream_Hum_key"
         }
-    },
-    sensors:{
-        CO2:{
-            v400ppm:3.558,
-            v40000ppm:2.116
-        }
     }
 };
 
