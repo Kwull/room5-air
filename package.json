@@ -1,0 +1,16 @@
+{
+  "name": "room5-air-quality",
+  "version": "1.0.0",
+  "description": "Send sensor data to Plotly",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kwull",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.8.4",
+    "plotly": "^0.2.13",
+    "serialport": "^1.4.6"
+  }
+}
